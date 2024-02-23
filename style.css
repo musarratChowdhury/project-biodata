@@ -9,9 +9,9 @@
 body {
   font-family: "Courier New", Courier, monospace;
   /* background-color: antiquewhite; */
-  height: 100vh;
+  /* height: 200vh; */
 
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 .big-title {
@@ -30,7 +30,7 @@ body {
 }
 .main {
   width: 700px;
-  height: 100vh;
+  /* height: 100vh; */
   background-color: white;
 
   display: grid;
