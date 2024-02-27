@@ -29,7 +29,7 @@ body {
   /* border-bottom: 1px solid; */
 }
 .main {
-  width: 700px;
+  width: 800px;
   /* height: 100vh; */
   background-color: white;
 
@@ -43,7 +43,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 /* image */
 .image {
@@ -76,7 +75,8 @@ body {
 .hometown,
 .age,
 .height,
-.weight {
+.weight,
+.bloodgroup {
   display: flex;
   justify-content: space-between;
   padding: 0.3rem 1.3rem;
@@ -129,6 +129,7 @@ body {
   /* font-family: "Short Stack"; */
   font-weight: 500;
   text-align: right;
+  width: 270px;
 }
 
 /* Personal Details */
@@ -159,6 +160,23 @@ body {
   text-align: right;
 }
 /* Family Background */
+/* Relations Table */
+.relations-table {
+  font-size: 1.2rem;
+  font-family: "Dosis", sans-serif;
+  width: 100%;
+}
+.relations-table th {
+  text-align: left;
+}
+.relations-table tr td,
+th {
+  padding: 5px;
+}
+.family-details .big-title {
+  text-align: center;
+}
+/* Relations Table */
 
 /* contact details */
 .contact-details {
